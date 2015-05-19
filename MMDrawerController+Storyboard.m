@@ -50,28 +50,28 @@
         [self performSegueWithIdentifier: @"mm_center" sender: self];
 
         // Optional segue "mm_left".
-        @try
-        {
-            [self performSegueWithIdentifier: @"mm_left" sender: self];
-        }
-        @catch (NSException *exception)
-        {
-        }
-        @finally
-        {
-        }
-        
-        // Optional segue "mm_right".
-        @try
-        {
-            [self performSegueWithIdentifier: @"mm_right" sender: self];
-        }
-        @catch (NSException *exception)
-        {
-        }
-        @finally
-        {
-        }
+//        @try
+//        {
+//            [self performSegueWithIdentifier: @"mm_left" sender: self];
+//        }
+//        @catch (NSException *exception)
+//        {
+//        }
+//        @finally
+//        {
+//        }
+//        
+//        // Optional segue "mm_right".
+//        @try
+//        {
+//            [self performSegueWithIdentifier: @"mm_right" sender: self];
+//        }
+//        @catch (NSException *exception)
+//        {
+//        }
+//        @finally
+//        {
+//        }
     }
 }
 
